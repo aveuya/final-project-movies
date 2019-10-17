@@ -15,6 +15,7 @@ export class AppComponent {
   title : string = 'final-project-front';
 
   constructor() { 
+    console.log(this.input)
     //this.input = this.input.toUpperCase();
   }
   

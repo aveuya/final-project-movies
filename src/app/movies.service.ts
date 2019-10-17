@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 export class MoviesService {
   
   // this.number: number;
-  number:number
+  // number:number
   constructor() { 
     //this.referenceName = ...
   }

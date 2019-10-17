@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { MoviesService } from '../movies.service';  // MovieService is a class blueprint
+import { MoviesService } from '../movies.service';  // MoviesService is a class blueprint
 
 // export interface MoviesService;
-//  interface MoviesService {}; 
+//  interface MoviesService {}; having this will conflict with local declaration below
 
 @Component({
   selector: 'app-home',
@@ -11,8 +11,6 @@ import { MoviesService } from '../movies.service';  // MovieService is a class b
 })
 export class HomeComponent implements OnInit {
 
-  
-  
   // constructor(public _movieService: MoviesService) { 
   // }
 
