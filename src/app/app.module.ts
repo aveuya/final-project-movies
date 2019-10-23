@@ -11,6 +11,9 @@ import { FormsModule } from '@angular/forms';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { FooterComponent } from './footer/footer.component';
+import { UpcomingMoviesComponent } from './upcoming-movies/upcoming-movies.component';
+import { NowPlayingComponent } from './now-playing/now-playing.component';
+import { TopRatedComponent } from './top-rated/top-rated.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { FooterComponent } from './footer/footer.component';
     HomeComponent,
     NavbarComponent,
     SidebarComponent,
-    FooterComponent
+    FooterComponent,
+    UpcomingMoviesComponent,
+    NowPlayingComponent,
+    TopRatedComponent
   ],
   imports: [
     BrowserModule,
